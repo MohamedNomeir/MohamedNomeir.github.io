@@ -10,50 +10,30 @@
 
 .pub {
   counter-increment: publication;
-
   display: flex;
   align-items: flex-start;
-
   margin-bottom: 1.5rem;
-  width: 100%;
 }
 
-/* Number */
 .pub::before {
   content: counter(publication) ".";
-
   flex: 0 0 35px;
-
   text-align: right;
-  margin-right: 18px;
-
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-/* Year */
-.pub > b {
-  flex: 0 0 55px;
-
   margin-right: 20px;
-
   font-weight: 600;
   line-height: 1.5;
 }
 
-/* Publication information */
 .pub > div {
-  flex: 1 1 auto;
+  flex: 1;
   min-width: 0;
 }
 
-/* Title */
 .pub h3 {
   margin: 0 0 0.35rem 0;
   line-height: 1.5;
 }
 
-/* Authors / venue */
 .pub p {
   margin: 0;
   line-height: 1.5;
