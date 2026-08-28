@@ -38,3 +38,13 @@
   margin: 0;
   line-height: 1.5;
 }
+
+
+.pub h3 a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.pub h3 a:hover {
+  text-decoration: underline;
+}
